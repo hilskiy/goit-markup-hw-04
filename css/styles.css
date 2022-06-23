@@ -216,7 +216,7 @@ body {
     padding: 10px 32px;
     border: none;
 }
-}
+
 
 
 /* --------------------------------benefits-------------------------------- */
@@ -335,6 +335,8 @@ body {
     background: #FFFFFF;
     width: 270px;
     height: 428px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-item:not(:last-child){
     margin-right: 30px;
@@ -560,15 +562,11 @@ body {
 .button-list{
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .button-item:not(:last-child){
     margin-right: 8px;
-}
-
-.button-item{
-    margin-top: 94px;
 }
 
 .button-text{
@@ -581,11 +579,20 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    border: none;
+    padding: 6px 22px;
+    
+}
+
+.portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio-div{
     padding-bottom: 20px;
     padding-left: 24px;
+    padding-right: 24px;
     padding-top: 20px;
     border: 1px solid #ECECEC;
 }
@@ -607,7 +614,7 @@ body {
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .portfolio-text{
@@ -624,11 +631,17 @@ body {
 .portfolio-item:not(:nth-child(3n + 3)){
     margin-right: 30px;
 }
-.portfolio-item:last-child {
-    margin-bottom: 94px;
-}
 
 .portfolio-link{
     text-decoration: none;
+}
 
+.portfolio-link img{
+    display: block;
+    text-decoration: none;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
