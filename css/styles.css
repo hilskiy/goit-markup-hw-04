@@ -29,8 +29,6 @@ body {
     text-decoration: none;
     background: #FFFFFF;
     color: var(--primary-text-color);
-    width: 1600px;
-    display: block;
 }
 
 .container{
@@ -309,19 +307,18 @@ body {
     display: flex;
 }
 
-
-.item-name{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.team-item img{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
-.team-name{
+.item-name{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 5px;
 }
 
 .team{
@@ -329,6 +326,12 @@ body {
     padding-bottom: 94px;
     padding-top: 94px;
 }
+
+.team-name{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
 .team-item{
     background: #FFFFFF;
     width: 270px;
@@ -354,6 +357,7 @@ body {
 .social-list{
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .social-item{
